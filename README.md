@@ -1,24 +1,16 @@
-# README
+# Chess
+Created as part of [The Odin Project's](https://www.theodinproject.com) Ruby on Rails curriculum.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+View on [Github](https://github.com/harmolipi/re-former).
 
-Things you may want to cover:
+### Functionality
 
-* Ruby version
+This is part of the [Forms Project](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/forms) project, which works through creating some example forms, first with pure HTML, and then with progressively more of it handled by Rails helper methods.
 
-* System dependencies
+### Thoughts
 
-* Configuration
+Tbd...
 
-* Database creation
+God bless.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-Niko Birbilis
