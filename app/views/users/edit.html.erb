@@ -1,0 +1,20 @@
+<%= form_with model: @user do |form| %>
+  <% if @user.errors.any? %>
+    <div id="user_errors">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+      <ul>
+        <% @user.errors.full_messages.each do |error|%>
+          <ul><%= error %></ul>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= form.label :email, "Enter your email address:" %>
+  <%= form.email_field :email, placeholder: "example@example.com" %>
+  <%= form.label :username, "Enter your username:" %>
+  <%= form.text_field :username, placeholder: "MyUsername" %>
+  <%= form.label :password, "And your password:" %>
+  <%= form.password_field :password %>
+  <%= form.submit "Submit" %>
+<% end %>
